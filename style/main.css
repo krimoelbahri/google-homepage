@@ -25,6 +25,10 @@ li a {
     text-decoration: none;
 }
 
+a :hover{
+    text-decoration: underline;
+}
+
 .left-nav {
     display: block;
     float: left;
