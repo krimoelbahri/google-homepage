@@ -5,35 +5,46 @@
         <link rel="stylesheet" href="style/main.css" media="all">
     </head>
     <body>
-        <main>
+        <div id="navBar">
             <ul>
-                <li class="left-nav"> <a href="about">About</a> </li>  
-                <li class="left-nav"> <a href="store">Store</a></li> 
-                <li class="right-nav"><input type="submit" id="sign-in" value="Sign in"></li>
-                <li class="right-nav"> <a href="image">Images</a></li> 
-                <li class="right-nav"><a href="gmail">Gmail</a></li> 
+                <div class="navBarLeft">
+                    <li > <a href="about">About</a> </li>  
+                    <li > <a href="store">Store</a></li> 
+                </div>
+                <div class="navBarRight">
+                    <li><input type="submit" id="sign-in" value="Sign in"></li>
+                    <li> <a href="image">Images</a></li> 
+                    <li><a href="gmail">Gmail</a></li> 
+                </div>
             </ul>
-
+        </div>
+        <div id="formContainer">
             <form>
                 <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-            
-                <div class="center">
+                <div id="searchBar">
                     <input  type="search" id="search" />  
-                    <input class="g-bt" type="submit" value="Google Search"/>
-                    <input class="g-bt" type="submit" value="I'm Feeling Lucky"/>
                 </div>
-               
+                <div id="submitButtons">
+                    <input class="submitButton" type="submit" value="Google Search"/>
+                    <input class="submitButton" type="submit" value="I'm Feeling Lucky"/>
+                </div>
+
             </form>
-        </main>
+        </div>
   
-        <div class="footer">
+        <div id="footer">
             <ul>
-                <li class="left-nav"><a href="Advertising">Advertising</a></li>
-                <li class="left-nav"><a href="Business">Business</a></li>
-                <li class="left-nav"><a href="How Search Works">How Search Works</a></li>
-                <li class="right-nav"><a href="Settings">Settings</a></li>
-                <li class="right-nav"><a href="Terms">Terms</a></li>
-                <li class="right-nav"><a href="Privacy">Privacy</a></li>
+                <div class="navBarLeft">
+                    <li class="left-nav"><a href="Advertising">Advertising</a></li>
+                    <li class="left-nav"><a href="Business">Business</a></li>
+                    <li class="left-nav"><a href="How Search Works">How Search Works</a></li>
+                </div>
+                <div class="navBarRight">
+                    <li class="right-nav"><a href="Settings">Settings</a></li>
+                    <li class="right-nav"><a href="Terms">Terms</a></li>
+                    <li class="right-nav"><a href="Privacy">Privacy</a></li>
+                </div>
+
             </ul>
         </div>
     </body>
